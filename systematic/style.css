@@ -9,7 +9,6 @@ body {
 	height: 100%;
 	overflow: hidden;
 	margin: 0;
-	line-height: 1.42em;
 	font-family: Georgia;
 }
 
@@ -150,7 +149,22 @@ a {
 	margin: 0 auto;
 }
 
-.logo {
+.header_mid:after .header_mid:before {
+	display: table;
+	content: "";
+}
+
+.header_mid:after {
+	clear: both;
+}
+
+.header_logo {
+	float: left;
+	position: absolute;
+	margin-top: 40px;
+}
+
+.logo_site {
 	font-size: 36px;
 }
 
@@ -158,24 +172,26 @@ a {
 	font-size: 46px;
 }
 
-.header_logo {
-	float: left;
+.logo {
+	color: #000000;
 }
 
-.header_menu_social{
-	float: ;
+.header_menu_social {
+	float: right;
+	margin-top: 62px;
 }
 
 .social_item {
 	display: inline-block;
+	margin-left: 7px;
 }
 
 .social_link {
+	display: block;
 	width: 32px;
 	height: 32px;
 	cursor: pointer;
 	border-radius: 50%;
-	float: right;
 }
 
 .linkedin {
@@ -215,4 +231,15 @@ a {
 
 .rss:hover {
 	background: url(img/icons/rss_h.png);
+}
+
+								/*------- navigation -------*/
+
+.header_bot {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.navigation_item {
+	display: inline-block;
 }
