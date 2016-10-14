@@ -312,7 +312,7 @@ hr {
 }
 
 .content_title {
-	position: absolute;
+	position: relative;
 	display: inline-block;
 	margin-top: 135px;
 }
@@ -488,9 +488,7 @@ hr {
 }
 
 .tweets {
-	width: 210px;
-	float: left;
-	display: inline-block;
+	overflow: hidden;
 }
 
 .bot_menu_title {
@@ -511,9 +509,7 @@ hr {
 }
 
 .links {
-	width: 210px;
-	display: inline-block;
-	margin-left: 40px;
+	overflow: hidden;
 }
 
 .quick_links hr {
@@ -528,10 +524,8 @@ hr {
 }
 
 .posts {
-	width: 210px;
-	display: inline-block;
-	margin-left: 40px;
 	position: relative;
+	overflow: hidden;
 }
 
 .info_post {
@@ -559,6 +553,44 @@ hr {
 	font-size: 12px;
 	color: #B82C1F;
 }
+
+.contact {
+	overflow: hidden;
+}
+
+.contact_form {
+	color: #989898;
+	background: #f1f1f1;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	text-indent: 10px;
+}
+
+.in_name, .in_email, .in_subject {
+	width: 210px;
+	height: 31px;
+}
+
+.in_message {
+	width: 210px;
+	height: 110px;
+	resize: none;
+	font-size: 13px;
+	font-family: Georgia;
+}
+
+.in_submit {
+	color: #B92D1F;
+	width: 80px;
+	height: 31px;
+	border: none;
+	border-radius: 5px;
+	background: #f1f1f1;
+	margin-top: 10px;
+}
+
+
 								/*------- footer -------*/
 
 .footer {
@@ -567,5 +599,32 @@ hr {
 
 .container_footer {
 	width: 960px;
+	height: 65px;
 	margin: 0 auto;
+	overflow: hidden;
+}
+
+.footer_templates, .footer_copyright {
+	font-size: 12px;
+	color: #919191;
+	margin: 20px;
+}
+
+.footer_copyright {
+	float: left;
+}
+
+.footer_templates {
+	float: right;
+}
+
+
+.line_containers {
+	width: 210px;
+	margin-left: 40px;
+	float: left;
+}
+
+.line_containers:first-child {
+	margin-left: 0;
 }
