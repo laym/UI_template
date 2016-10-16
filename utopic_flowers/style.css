@@ -11,6 +11,20 @@ body {
 	margin: 0;
 }
 
+ul {
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}	
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -118,6 +132,126 @@ body {
 	color: #000000;
 }
 
+							/*______content_quote______*/
+
+.content_quote {
+	background: #EAEAE9;
+	height: 100px;
+	overflow: hidden;
+}
+
+.quote {
+	color: #333333;
+	font-size: 22px;
+	font-style: italic;
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;
+	line-height: 1.5;
+}
+
+							/*______content_slide_caption______*/
+
+.slide_caption {
+	height: 380px;
+	position: relative;
+}
+
+.slide_picture {
+	height: 380px;
+}
+
+.slide_img {
+	width: 960px;
+	height: 380px;
+	border: none;
+}
+
+.slide_button_left {
+	position: absolute;
+	left: 30px;
+	top: 165px;
+}
+
+.slide_button_right {
+	position: absolute;
+	right: 30px;
+	top: 165px;
+}
+
+.button_left {
+	background: url('img/icons_content/arrow_left.png') 0 0 no-repeat;
+	width: 50px;
+	height: 50px;
+	display: block;
+	padding: 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.button_right {
+	background: url('img/icons_content/arrow_right.png') 0 0 no-repeat;
+	width: 50px;
+	height: 50px;
+	display: block;
+	padding: 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.slide_caption_info {
+	width: 450px;
+	height: 120px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.title_slide_info {
+	color: #c1c1c1;
+	font-size: 20px;
+	margin-left: 15px;
+	line-height: 1.2;
+}
+
+.slide_info {
+	color: #bfbfbf;
+	font-size: 13px;
+	text-align: left;
+	margin-left: 15px;
+	line-height: 1.8;
+}
+
+.slide_button_navigation {
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+}
+
+.slide_item {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #656565;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.slide_item:first-child {
+	margin-left: 0;
+}
+
+.slide_item:hover {
+	width: 10px;
+	height: 10px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #656565;
+	box-sizing: border-box;
+}
 
 							/*______footer______*/
 
