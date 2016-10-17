@@ -253,6 +253,98 @@ a {
 	box-sizing: border-box;
 }
 
+							/*______content_category_flowers______*/
+
+.category_flowers {
+	height: 250px;
+	background: #ffffff;
+}
+
+.category_flowers_wrapper {
+	width: 280px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 45px;
+}
+
+.category_icon {
+	float: left;
+}
+
+.icon {
+	width: 48px;
+	height: 48px;
+	border: none;
+}
+
+.category_title {
+	margin-left: 70px;
+	overflow: hidden;
+}
+
+.flower_title {
+	font-size: 20px;
+	color: #884AA3;
+	line-height: 1.2;
+	margin: 0;
+}
+
+.category_info {
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+.flower_info {
+	font-size: 13px;
+	color: #666666;
+	text-align: left;
+	line-height: 1.6;
+}
+
+							/*______content_info_flowers______*/
+
+.info_flowers {
+	height: 420px;
+	background: #EAEAE9;
+}
+
+.info_flowers_wrapper {
+	width: 280px;
+	height: 320px;
+	background: #ffffff;
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.img_info_flower {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.picture_flower {
+	width: 260px;
+	height: 180px;
+	border: none;
+}
+
+.flower_name {
+	font-size: 16px;
+	color: #884AA3;
+	text-align: center;
+}
+
+.flower_information {
+	margin: 0 10px;
+}
+
+.information {
+	font-size: 13px;
+	color: #666666;
+	text-align: center;
+	line-height: 1.6;
+}
+
 							/*______footer______*/
 
 .empty {
